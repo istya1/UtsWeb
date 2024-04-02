@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Istya</title>
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="icon" type="png" href="gambar/icon.png" sizes="16x16" />
+</head>
+<body>
+  <div class="container">
+    <form id="registrationForm">
+      <h2>Form Pendaftaran</h2>
+      <div class="form-group">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="dob">Tanggal Lahir:</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Nomor Telepon:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Alamat:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="gender">Jenis Kelamin:</label>
+        <select id="gender" name="gender" required>
+          <option value="L">Laki-laki</option>
+          <option value="P">Perempuan</option>
+        </select>
+      </div>
+      <button type="submit">Daftar</button>
+    </form>
+  </div>
+  <script src="js/form.js"></script>
+</div>
+  <footer>
+    @copy; Istya Yulia A. 2A 233307019
+</footer>
+</body>
+</html>
